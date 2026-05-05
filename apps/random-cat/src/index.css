@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-theme-green: #5B7E3C;
+  --color-theme-yellow: #FFD65A;
+  --color-theme-orange: #FF9D23;
+  --color-theme-red: #EA5252;
+  --color-theme-bg: #fdfdfa;
+  --color-theme-surface: #ffffff;
+  --color-theme-text: #2a3a1c;
+}
+
+@layer base {
+  body {
+    @apply bg-theme-bg text-theme-text antialiased;
+  }
+}
